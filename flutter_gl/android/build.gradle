@@ -31,6 +31,8 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 33
 
+    namespace 'com.flutter_gl'
+    
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
